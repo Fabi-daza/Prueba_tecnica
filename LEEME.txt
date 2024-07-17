@@ -1,0 +1,44 @@
+Prueba técnica para el cargo de programador web
+Nombre: Fabián Daza
+Correo: fabian.daza2020@gmail.com
+
+Versión de PHP: 8.2.12
+Versión de la Base de Datos: 10.4.32-MariaDB
+
+Requisitos Previos
+1- Instalación de XAMPP:
+
+Accede a la URL: https://www.apachefriends.org/es/download.html.
+Selecciona la opción acorde a tu sistema operativo y descarga XAMPP.
+Instala XAMPP siguiendo las instrucciones del instalador.
+
+2- Configuración de XAMPP:
+
+Abre el Panel de Control de XAMPP.
+Inicia los servicios 'Apache' y 'MySQL'.
+
+3-Preparación del Entorno de Desarrollo:
+
+Navega a la carpeta de instalación de XAMPP.
+Accede a la carpeta htdocs.
+Agrega el repositorio de la aplicación en esta carpeta (htdocs).
+
+4- Creación de la Base de Datos:
+
+Abre PhpMyAdmin en tu navegador: http://localhost/phpmyadmin.
+Crea una nueva base de datos llamada app_votaciones.
+
+5 - Importación de la Base de Datos:
+
+En PhpMyAdmin, selecciona la base de datos app_votaciones.
+Haz clic en la pestaña "Importar".
+Selecciona el archivo app_votaciones.sql y ejecútalo.
+Esta importación creará todas las tablas necesarias para ejecutar la aplicación:
+regiones
+comunas
+candidatos
+votaciones
+
+6- Acceso a la Aplicación:
+
+Abre tu navegador y navega a http://localhost/app-votaciones para acceder a la aplicación.

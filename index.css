@@ -1,0 +1,25 @@
+.container {
+    width: 80%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.question {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.options {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.option {
+    width: 50%;
+}
+
+input, label, select {
+    width: 50%;
+}
